@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KWEKUPALMER | Official Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:#000;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:#FFD700;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("your-photo.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h2{
+    font-size:50px;
+    color:#FFD700;
+}
+
+.hero p{
+    margin:20px;
+    max-width:600px;
+}
+
+.button{
+    background:#FFD700;
+    color:#000;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 20px;
+    max-width:900px;
+    margin:auto;
+}
+
+h3{
+    color:#FFD700;
+    margin-bottom:20px;
+}
+
+.music-box{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.social a{
+    color:#FFD700;
+    margin:0 10px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>KWEKUPALMER</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#music">Music</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h2>KWEKUPALMER</h2>
+
+<p>
+Official website of KWEKUPALMER.
+Music. Inspiration. Positive Vibes.
+</p>
+
+<a href="#music" class="button">Listen Now</a>
+
+</section>
+
+<section id="about">
+
+<h3>About Me</h3>
+
+<p>
+Welcome to my official website. I'm KWEKUPALMER, an Afrobeat and inspirational artist dedicated to creating music that brings hope, motivation, and good energy to people around the world.
+</p>
+
+</section>
+
+<section id="music">
+
+<h3>Latest Release</h3>
+
+<div class="music-box">
+
+<h2>EBEYE YIE</h2>
+
+<p><strong>Producer:</strong> Starbee</p>
+
+<br>
+
+<audio controls style="width:100%;">
+<source src="ebeye-yie.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h3>Contact</h3>
+
+<p>Email: your@email.com</p>
+
+<p>Phone: +233 XX XXX XXXX</p>
+
+<div class="social">
+
+<br>
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 KWEKUPALMER. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
